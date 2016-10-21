@@ -1,0 +1,29 @@
+{
+  "name": "weight-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awesomeduude/Wrestling-Weight-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awesomeduude/Wrestling-Weight-App/issues"
+  },
+  "homepage": "https://github.com/awesomeduude/Wrestling-Weight-App",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2"
+  }
+}
