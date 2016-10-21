@@ -59,8 +59,8 @@
 
 
 	    var weight = weight-(bodyFat-minBodyFat)*weight/100;
-
-	    result.innerText = weight +' lbs';
+	    weight = weight.toFixed(2) +' lbs';
+	    result.innerText = weight;
 	  }, 10);
 	}
 
