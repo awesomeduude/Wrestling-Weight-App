@@ -56,7 +56,7 @@
 
 
 	  var weight = weight-(bodyFat-minBodyFat)*weight/100;
-	  console.log(weight);
+
 	  result.innerText = weight +' lbs';
 	})
 
