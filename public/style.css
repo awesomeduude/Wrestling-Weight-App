@@ -19,18 +19,19 @@ h2 {
 }
 p{
   font-size: 1.5em;
+  animation: none;
 }
 .container {
-    margin: 0 auto;
-    border-radius: 5px;
-    text-align: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
 }
 form {
   font-size: 1rem;
   border: 1px solid #ddd;
   padding: 1.3em;
 
-  background-color: rgba(238, 238, 238, 0.5);
+  background-color: #F1E3F3;
   box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
 
   width: 300px;
@@ -70,5 +71,26 @@ button {
   background-color: chartreuse;
   outline: none;
   color: inherit;
-  border: none;
+  border: 1px solid transparent;
+}
+button:hover {
+  background-color: transparent;
+  border: 1px solid chartreuse;
+}
+.fadeIn {
+  animation: fadeIn .5s linear forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(.1);
+  }
+  80% {
+    opacity:1;
+    transform: scale(1.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
