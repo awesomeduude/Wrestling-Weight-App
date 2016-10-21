@@ -6,25 +6,28 @@
 </head>
 <body>
   <h1>Wrestling Weight App</h1>
-  <form action="">
+  <form class='container'>
 
     <fieldset>
-      <label for="#currentWeight">Current Weight</label>
-      <input type="text" id='currentWeight'>
+      <label for="#cw">Current Weight</label>
+      <input type="text" id='cw' placeholder="e.g. 150">
     </fieldset>
 
     <fieldset>
       <label for="#bf">Body Fat</label>
-      <input type="text" id='bf'>
+      <input type="text" id='bf' placeholder="e.g. 20">
     </fieldset>
     <fieldset>
       <label for="#mbf">Minimum Body Fat</label>
-      <input type="text" id='mbf'>
+      <input type="text" id='mbf' value="7">
     </fieldset>
-  </form>
-  <h2>Your Minimum Weight is: </h2>
-  <p id="result">0.00lbs</p>
 
+    <button type='submit' id='btn'>Submit</button>
+  </form>
+  <div class="container">
+    <h2>Your Minimum Weight is: </h2>
+    <p id="result">0.00 lbs</p>
+  </div>
   <script src='index.js'></script>
 </body>
 </html>
